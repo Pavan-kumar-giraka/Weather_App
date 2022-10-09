@@ -1,0 +1,58 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(./Images/cold-bg.jpg);
+}
+.container{
+  width: 50vw;
+  height: 80vh;
+  margin: 40px auto;
+  padding: 30px auto;
+  color: rgb(11, 11, 12);
+  border-radius: 30px;
+  
+}
+.card-title{
+  font-size: 30px;
+  font-family: cursive;
+  font-weight: 400;
+}
+.card{
+  border: 2px solid blue;
+  border-radius: 10px;
+  background-position: center;
+  background: rgba(0, 0, 0, 0.6);
+  background-size: cover;
+
+}
+.search{
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.search:hover{
+  background-color: rgba(43, 153, 226,0.6);
+}
+.temp{
+  border: 1px solid black;
+  padding: 5px;
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 10px;
+}
+h2{
+  margin-top: 10px;
+  font-family: cursive;
+  border: 1px solid;
+  border-radius: 10px;
+  box-shadow: 2px snow;
+}
